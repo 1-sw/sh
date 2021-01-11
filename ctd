@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+sudo rm -r /tmp
+sudo mkdir /tmp
+sudo chmod 1777 /tmp
+sudo reboot

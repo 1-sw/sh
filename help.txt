@@ -1,0 +1,4 @@
+  script                      explain
+[sh ./cdc ]     clear '.deb' cache from var/cache/apt/archives/
+[sh ./ctd ]     clear '/tmp' dir and recreate it with 1777 access
+
