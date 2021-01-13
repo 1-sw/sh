@@ -1,7 +1,7 @@
 #!/usr/bin/bash
-echo "CLONE-------------------"
+echo "CLONE..."
 git clone https://github.com/sipcapture/homer7-docker
-echo "GO TO DOCKER CONFIGS------------------"
+echo "GO TO THE DOCKER CONFIGS..."
 cd homer7-docker/heplify-server/hom7-prom-all
-echo "COMPOSE----------------------"
+echo "COMPOSE..."
 sudo docker-compose up -d

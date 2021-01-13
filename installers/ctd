@@ -1,5 +1,10 @@
 #!/usr/bin/bash
+echo "REMOVE /tmp ..."
 sudo rm -r /tmp
+echo "MAKE /tmp..."
 sudo mkdir /tmp
+echo "CHANGE MODE..."
 sudo chmod 1777 /tmp
+echo "REBOOT..."
 sudo reboot
+
