@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+
+clear
+echo "GO BACK"
+cd $HOME/src
+echo "CLONE...."
+git clone https://github.com/sipcapture/heplify
+echo "GO to heplify"
+cd heplify
+echo "Download binary heplify:"
+wget https://github.com/sipcapture/heplify/releases/download/1.62/heplify
+clear && ls
+

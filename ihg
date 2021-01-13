@@ -1,0 +1,16 @@
+#!/usr/bin/bash
+
+cd $HOME/qxip
+echo "CLONE...."
+git clone https://github.com/sipcapture/hepgen.js
+echo "GO TO HEPGEN DIR...."
+cd hepgen.js
+echo "GET NODE 14.*+...."
+wget https://nodejs.org/dist/v14.15.4/node-v14.15.4-linux-x64.tar.xz
+echo "EXTRACT...."
+tar -xf file.tar.xz
+echo "CLEAR ARCHIVES...."
+rm -rf node-v14.15.4-linux-x64.tar.xz
+echo "RUN NPM INSTALLER...."
+sudo node-v14.15.4-linux-x64/bin/npm install -g hepgen.js
+
