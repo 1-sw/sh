@@ -1,7 +1,5 @@
 #!/usr/bin/bash
-
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install git docker docker-compose golang npm
-sudo apt-get install xz-tools
 cd $HOME && mkdir qxip && cd qxip
 

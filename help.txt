@@ -1,8 +1,8 @@
-  script                 explain
-[sh ./cdc]       clear '.deb' cache from var/cache/apt/archives/./
-[sh ./ctd]       clear '/tmp' dir and recreate it with 1777 access
-[sh ./ibp]       install base packages 
-[sh ./iha]       install homer
-[sg ./ihl]       install heplify 
-[sg ./ihg]       install hepgen.js + nodejs + npm 
+[dir: installers]
+   [sh ./cdc]       clear '.deb' cache from var/cache/apt/archives/./
+   [sh ./ctd]       clear '/tmp' dir and recreate it with 1777 access
+   [sh ./ibp]       install base packages 
+   [sh ./iha]       install homer
+   [sh ./ihl]       install heplify   
+   [sh ./ihg]       install hepgen.js + nodejs + npm 
 
