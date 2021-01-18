@@ -1,12 +1,11 @@
+import VK
 import config
 import vk_api
 
 num = config.number
 pwd = config.pwd
 
-vk_session = vk_api.VkApi(num,pwd)
-vk_session.auth()
-
-vk = vk_session.get_api()
+vk = VK(num,pwd)
+vk = vk.GET_API()
 
 print(vk.wall.post(message='Hello world!'))
