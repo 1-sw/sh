@@ -1,8 +1,6 @@
 import config
 import vk_api
 
-
-
 num = config.number
 pwd = config.pwd
 
