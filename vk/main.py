@@ -1,4 +1,4 @@
-import VK
+import modules.VK
 import config
 import vk_api
 

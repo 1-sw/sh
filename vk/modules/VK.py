@@ -8,10 +8,11 @@ class VK:
     self.pwd = pwd
     SESSION  = vk_api.VkApi(num,pwd)
     self.SESSION.auth()
+    self.API = self.SESSION.get_api()
 
   def GET_API(self):
-    print(__class__"->GET_API : called")
-    return self.API = self.SESSION.get_api()
+    print(__class__+"->GET_API : called")
+    return self.API
 
 
 
